@@ -6,6 +6,7 @@ import './App.css'
 import { PhoneProvider } from './Hooks/PhoneContext';
 import News from './components/News';
 import { useState } from 'react';
+import Schedule from './components/Schedule';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home searchInput={searchInput} />} />
             <Route path="/news" element={<News />} />
+            <Route path="/schedule" element={<Schedule />} />
 
           </Routes>
           <Footer />
