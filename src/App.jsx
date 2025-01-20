@@ -7,6 +7,7 @@ import { PhoneProvider } from './Hooks/PhoneContext';
 import News from './components/News';
 import { useState } from 'react';
 import Schedule from './components/Schedule';
+import MatchAllInfo from './components/MatchAllInfo';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
             <Route path="/" element={<Home searchInput={searchInput} />} />
             <Route path="/news" element={<News />} />
             <Route path="/schedule" element={<Schedule />} />
-
+            <Route path="/match/:matchId" element={<MatchAllInfo />} />
           </Routes>
           <Footer />
         </BrowserRouter>
