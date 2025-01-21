@@ -1,6 +1,7 @@
 # Cricket Website
 
 A dynamic web application built to provide live cricket scores, upcoming matches, and news related to the cricket world. This application uses React for the front end and connects to various APIs to fetch real-time data. It also features a clean UI built with Tailwind CSS.
+Website live At - https://cricketlive-or27.onrender.com/
 
 ## Features
 
