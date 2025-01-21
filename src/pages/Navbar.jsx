@@ -41,8 +41,8 @@ export default function Navbar({ setSearchInput }) {
 
 const Navigation = ({ isPhone }) => {
     return (
-        <div className="w-full md:w-auto md:order-1 px-2">
-            <ul className='flex flex-row md:p-0 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
+        <div className="w-full md:w-auto md:order-1 lg:ml-10 px-2">
+            <ul className='flex flex-row md:p-0 font-medium border overflow-auto border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
                 <li className={`flex ${!isPhone ? 'flex-col' : 'flex-row'} items-center gap-0 justify-center `}>
                     <FaHome className='text-2xl h-5 w-5' />
                     <a
@@ -62,9 +62,9 @@ const Navigation = ({ isPhone }) => {
                 <li className={`flex ${!isPhone ? 'flex-col' : 'flex-row'} items-center gap-0 justify-center `}>
                     <PiRanking className='text-2xl h-5 w-5' />
                     <a
-                        href="/schedule"
+                        href="/ranking"
                         className="block py-1 px-3 text-gray-900 rounded hover:text-blue-500 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">
-                        Rankings
+                        Rank
                     </a>
                 </li>
 

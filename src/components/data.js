@@ -942,3 +942,240 @@ export const seriesData = {
         }
     ]
 }
+
+export const teamRankData = {
+    "data": [
+        {
+            "rating": 118,
+            "rank": 1,
+            "point": 5298,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/834841018_team.png",
+            "team": "India"
+        },
+        {
+            "rating": 113,
+            "rank": 2,
+            "point": 4731,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/203350759_team.png",
+            "team": "Australia"
+        },
+        {
+            "rating": 111,
+            "rank": 3,
+            "point": 3869,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1461347672_team.png",
+            "team": "Pakistan"
+        },
+        {
+            "rating": 102,
+            "rank": 4,
+            "point": 3981,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1283660518_team.png",
+            "team": "South Africa"
+        },
+        {
+            "rating": 100,
+            "rank": 5,
+            "point": 3783,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1291152360_team.png",
+            "team": "New Zealand"
+        },
+        {
+            "rating": 97,
+            "rank": 6,
+            "point": 5630,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/247428309_team.png",
+            "team": "Sri Lanka"
+        },
+        {
+            "rating": 93,
+            "rank": 7,
+            "point": 3364,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1431327986_team.png",
+            "team": "England"
+        },
+        {
+            "rating": 86,
+            "rank": 8,
+            "point": 3365,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/741459023_team.png",
+            "team": "Afghanistan"
+        },
+        {
+            "rating": 81,
+            "rank": 9,
+            "point": 3730,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1091888531_team.png",
+            "team": "Bangladesh"
+        },
+        {
+            "rating": 78,
+            "rank": 10,
+            "point": 3185,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1379134813_team.png",
+            "team": "West Indies"
+        },
+        {
+            "rating": 52,
+            "rank": 11,
+            "point": 1309,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1792938660_team.png",
+            "team": "Ireland"
+        },
+        {
+            "rating": 51,
+            "rank": 12,
+            "point": 1586,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/917895936_team.png",
+            "team": "Scotland"
+        },
+        {
+            "rating": 51,
+            "rank": 13,
+            "point": 1476,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1534993308_team.png",
+            "team": "Zimbabwe"
+        },
+        {
+            "rating": 42,
+            "rank": 14,
+            "point": 1763,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1384885741_team.png",
+            "team": "Netherlands"
+        },
+        {
+            "rating": 33,
+            "rank": 15,
+            "point": 562,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/273714469_team.png",
+            "team": "Canada"
+        },
+        {
+            "rating": 31,
+            "rank": 16,
+            "point": 994,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1065814365_team.png",
+            "team": "USA"
+        },
+        {
+            "rating": 30,
+            "rank": 17,
+            "point": 927,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1940475236_team.png",
+            "team": "Oman"
+        },
+        {
+            "rating": 26,
+            "rank": 18,
+            "point": 1077,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1139539374_team.png",
+            "team": "Nepal"
+        },
+        {
+            "rating": 26,
+            "rank": 19,
+            "point": 727,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/220140325_team.png",
+            "team": "Namibia"
+        },
+        {
+            "rating": 10,
+            "rank": 20,
+            "point": 393,
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1809114053_team.png",
+            "team": "UAE"
+        }
+    ],
+    "msg": "Data found.",
+    "status": true,
+    "type": "ODI"
+}
+
+
+export const playerRankData = {
+    "data": [
+        {
+            "rating": 495,
+            "rank": 1,
+            "country": "WI",
+            "name": "Hayley Matthews",
+            "img": "https://cricketchampion.co.in/webroot/img/players/244969978_player.jpg",
+            "player_id": 2112
+        },
+        {
+            "rating": 443,
+            "rank": 2,
+            "country": "NZ",
+            "name": "Amelia Kerr",
+            "img": "https://cricketchampion.co.in/webroot/img/players/1152220377_player.jpg",
+            "player_id": 2556
+        },
+        {
+            "rating": 414,
+            "rank": 3,
+            "country": "AUS",
+            "name": "Ashleigh Gardner",
+            "img": "https://cricketchampion.co.in/webroot/img/players/463548146_player.jpg",
+            "player_id": 2250
+        },
+        {
+            "rating": 388,
+            "rank": 4,
+            "country": "IND",
+            "name": "Deepti Sharma",
+            "img": "https://cricketchampion.co.in/webroot/img/players/1282320990_player.jpg",
+            "player_id": 2567
+        },
+        {
+            "rating": 332,
+            "rank": 5,
+            "country": "SL",
+            "name": "Chamari Athapaththu",
+            "img": "https://cricketchampion.co.in/webroot/img/players/733986594_player.jpg",
+            "player_id": 3289
+        },
+        {
+            "rating": 278,
+            "rank": 6,
+            "country": "SA",
+            "name": "Marizanne Kapp",
+            "img": "https://cricketchampion.co.in/webroot/img/players/2096976736_player.jpg",
+            "player_id": 2811
+        },
+        {
+            "rating": 276,
+            "rank": 7,
+            "country": "PAK",
+            "name": "Nida Dar",
+            "img": "https://cricketchampion.co.in/webroot/img/players/1770925144_player.jpg",
+            "player_id": 2831
+        },
+        {
+            "rating": 269,
+            "rank": 8,
+            "country": "ENG",
+            "name": "Nat Sciver-Brunt",
+            "img": "https://cricketchampion.co.in/webroot/img/players/1674789729_player.jpg",
+            "player_id": 2257
+        },
+        {
+            "rating": 243,
+            "rank": 9,
+            "country": "SCO",
+            "name": "Kathryn Bryce",
+            "img": "https://cricketchampion.co.in/webroot/img/players/1933578540_player.jpg",
+            "player_id": 6298
+        },
+        {
+            "rating": 243,
+            "rank": 9,
+            "country": "IRE",
+            "name": "Orla Prendergast",
+            "img": "https://cricketchampion.co.in/webroot/img/players/407716442_player.jpg",
+            "player_id": 3775
+        }
+    ],
+    "msg": "Data found.",
+    "status": true,
+    "type": "Women's T20 Allrounders"
+}

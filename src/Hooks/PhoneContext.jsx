@@ -7,7 +7,7 @@ export const PhoneProvider = ({ children }) => {
     const [isPhone, setIsPhone] = useState(false);
 
     const handlePhone = () => {
-        setIsPhone(window.innerWidth <= 400);
+        setIsPhone(window.innerWidth <= 500);
     };
 
     useEffect(() => {

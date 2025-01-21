@@ -10,6 +10,7 @@ import Schedule from './components/Schedule';
 import MatchAllInfo from './components/Home/MatchAllInfo';
 import Series from './components/Series/Series';
 import SeriesDetail from './components/Series/SeriesDetail';
+import Ranking from './components/Rank/Ranking';
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
             <Route path="/match/:matchId" element={<MatchAllInfo />} />
             <Route path="/series" element={<Series searchInput={searchInput} />} />
             <Route path="/series/:id" element={<SeriesDetail />} />
-
+            <Route path="/ranking" element={<Ranking />} />
           </Routes>
           <Footer />
         </BrowserRouter>

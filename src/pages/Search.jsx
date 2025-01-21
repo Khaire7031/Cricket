@@ -10,8 +10,8 @@ export default function Search({ setSearchInput }) {
     };
 
     return (
-        <div className="flex md:order-2 max-w-[200px]">
-            <div className="relative ">
+        <div className="flex md:order-2 w-[200px] lg:w-[250px]">
+            <div className="relative w-full">
                 <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                     <BiSearch className="w-4 h-4 text-gray-500 dark:text-gray-400" />
                 </div>
