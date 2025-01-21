@@ -20,7 +20,7 @@ export default function UpComingMatches() {
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Up Coming Matches
             </span>
-            <div className="flex flex-row items-start justify-center gap-5 bg-black p-3 px-40 overflow-x-scroll hide-scrollbar">
+            <div className="flex flex-row items-center justify-start gap-5 bg-black p-5  overflow-x-auto hide-scrollbar w-full mx-auto">
                 {apiData?.data?.map((match, index) => (
                     <Match key={index} match={match} />
                 ))}
