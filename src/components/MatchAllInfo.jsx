@@ -4,7 +4,7 @@ import Commentary from './Commentary';
 import { useParams } from 'react-router-dom';
 import useCallApi from '../Hooks/useCallApi';
 import BasicInfo from './BasicMatchInfo';
-import data from './data';
+import { data } from './data';
 
 
 
@@ -15,11 +15,12 @@ export default function MatchAllInfo() {
     const { apiData, error, loading } = useCallApi(`match/${matchId}`);
 
     return (
-        <div className="container mx-auto p-4">
-            <div className="bg-gray-100 p-4 rounded-md shadow-md text-center">
-                <BasicInfo matchData={data} />
+        <div className="container mx-auto p-4 max-w-[1000px]">
+            <div className="bg-gray-100 p-4 rounded-md shadow-md ">
+                {/* Match Information */}
+                <BasicInfo matchData={data.data} />
 
-                <div className="mt-6 flex justify-center space-x-4">
+                <div className="mt-6 flex justify-start space-x-4">
                     {['squad', 'commentary'].map((tab) => (
                         <a
                             key={tab}

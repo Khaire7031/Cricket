@@ -6,7 +6,7 @@ import Search from './Search';
 const Navigation = () => {
     return (
         <div className="w-full md:w-auto md:order-1">
-            <ul className='flex flex-row md:p-0 mt-1 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
+            <ul className='flex flex-row md:p-0 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
                 <li>
                     <a
                         href="/"
@@ -40,8 +40,8 @@ export default function Navbar({ setSearchInput }) {
     const { isPhone } = useContext(PhoneContext);
 
     return (
-        <div>
-            <nav className="bg-white border-gray-200 dark:bg-gray-900">
+        <div className='sticky top-0 z-50 bg-white'>
+            <nav className="bg-white border-gray-200 dark:bg-gray-900  top-0">
                 <div className="max-w-screen-xl flex flex-row flex-wrap items-center justify-between mx-auto p-4">
                     <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src={Ball} className="h-8" alt="Cricket" />
@@ -54,7 +54,9 @@ export default function Navbar({ setSearchInput }) {
                 </div>
             </nav>
 
-            {isPhone && <div className="mt-1">
+            <hr />
+
+            {isPhone && <div className="">
                 <Navigation />
             </div>}
         </div>

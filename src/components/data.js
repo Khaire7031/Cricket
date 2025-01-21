@@ -1,4 +1,4 @@
-const data = {
+export const data = {
     "msg": "Data found.",
     "status": true,
     "data": {
@@ -147,4 +147,309 @@ const data = {
 }
 
 
-export default data;
+export const data1 = {
+    "msg": "Data found.",
+    "status": true,
+    "data": {
+        "team_b": {
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/1395345241_team.png",
+            "name": "Auckland",
+            "short_name": "AUC",
+            "player": [
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1333199443_player.png",
+                    "name": "Glenn Phillips",
+                    "play_role": "Allrounder",
+                    "player_id": 3365
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1285617276_player.png",
+                    "name": "Finn Allen",
+                    "play_role": "Batsman",
+                    "player_id": 3545
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1207501941_player.png",
+                    "name": "Mark Chapman",
+                    "play_role": "Batsman",
+                    "player_id": 3899
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1225029427_player.jpg",
+                    "name": "Sean Solia",
+                    "play_role": "Batsman",
+                    "player_id": 5042
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/252422616_player.jpg",
+                    "name": "William O Donnell",
+                    "play_role": "Batsman",
+                    "player_id": 5044
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1235968426_player.jpg",
+                    "name": "Adithya Ashok",
+                    "play_role": "Bowler",
+                    "player_id": 5049
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1457852834_player.jpg",
+                    "name": "Danru Ferns",
+                    "play_role": "Bowler",
+                    "player_id": 5050
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/425092012_player.jpg",
+                    "name": "Ben Lister",
+                    "play_role": "Bowler",
+                    "player_id": 5051
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/183463169_player.jpg",
+                    "name": "Simon Keene",
+                    "play_role": "Allrounder",
+                    "player_id": 5190
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/364031788_player.jpg",
+                    "name": "Louis Delport",
+                    "play_role": "Bowler",
+                    "player_id": 5191
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1196065792_player.jpg",
+                    "name": "Matt Gibson",
+                    "play_role": "Bowler",
+                    "player_id": 5215
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1999642478_player.jpg",
+                    "name": "Cam Fletcher",
+                    "play_role": "Wicketkeeper",
+                    "player_id": 5237
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/941111565_player.jpg",
+                    "name": "Michael Sclanders",
+                    "play_role": "Batsman",
+                    "player_id": 5512
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/455768611_player.png",
+                    "name": "Lockie Ferguson",
+                    "play_role": "Bowler",
+                    "player_id": 7065
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Quinn Sunde",
+                    "name": "Quinn Sunde",
+                    "play_role": "Wicketkeeper",
+                    "player_id": 7850
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/679977099_player.png",
+                    "name": "Bevon Jacobs",
+                    "play_role": "Batsman",
+                    "player_id": 7853
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Harjot Johal",
+                    "name": "Harjot Johal",
+                    "play_role": "Bowler",
+                    "player_id": 8200
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1287089824_player.jpg",
+                    "name": "Jock McKenzie",
+                    "play_role": "Allrounder",
+                    "player_id": 8664
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Lachlan Stackpole",
+                    "name": "Lachlan Stackpole",
+                    "play_role": "Batsman",
+                    "player_id": 8874
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Angus Olliver",
+                    "name": "Angus Olliver",
+                    "play_role": "Bowler",
+                    "player_id": 8962
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Jordan Sussex",
+                    "name": "Jordan Sussex",
+                    "play_role": "Bowler",
+                    "player_id": 9995
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name= Martin Guptill",
+                    "name": " Martin Guptill",
+                    "play_role": "Batsman",
+                    "player_id": 10401
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Siddhesh Dixit",
+                    "name": "Siddhesh Dixit",
+                    "play_role": "Other",
+                    "player_id": 10482
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Riley Mudford",
+                    "name": "Riley Mudford",
+                    "play_role": "Batsman",
+                    "player_id": 10826
+                }
+            ]
+        },
+        "team_a": {
+            "flag": "https://cricketchampion.co.in/webroot/img/teams/2100746311_team.png",
+            "name": "Wellington",
+            "short_name": "WEL",
+            "player": [
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1673367720_player.png",
+                    "name": "Devon Conway",
+                    "play_role": "Wicketkeeper",
+                    "player_id": 2723
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1295512237_player.png",
+                    "name": "Tom Blundell",
+                    "play_role": "Wicketkeeper",
+                    "player_id": 2724
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1295396074_player.jpg",
+                    "name": "Adam Milne",
+                    "play_role": "Bowler",
+                    "player_id": 3027
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/343365463_player.png",
+                    "name": "Logan van Beek",
+                    "play_role": "Bowler",
+                    "player_id": 3099
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/841509876_player.png",
+                    "name": "Michael Bracewell",
+                    "play_role": "Allrounder",
+                    "player_id": 3106
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1465657307_player.png",
+                    "name": "Ben Sears",
+                    "play_role": "Bowler",
+                    "player_id": 3894
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/346293703_player.jpg",
+                    "name": "Michael Snedden",
+                    "play_role": "Bowler",
+                    "player_id": 4813
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/23362549_player.jpg",
+                    "name": "Peter Younghusband",
+                    "play_role": "Bowler",
+                    "player_id": 4822
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/2023401508_player.png",
+                    "name": "Rachin Ravindra",
+                    "play_role": "Allrounder",
+                    "player_id": 4825
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/626617513_player.jpg",
+                    "name": "Nick Kelly",
+                    "play_role": "Allrounder",
+                    "player_id": 4833
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1765157953_player.jpg",
+                    "name": "Troy Johnson",
+                    "play_role": "Batsman",
+                    "player_id": 4836
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1046780185_player.jpg",
+                    "name": "Nick Greenwood",
+                    "play_role": "Batsman",
+                    "player_id": 5326
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1634775855_player.png",
+                    "name": "Nathan Smith",
+                    "play_role": "Allrounder",
+                    "player_id": 5329
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1902795037_player.jpg",
+                    "name": "Callum McLachlan",
+                    "play_role": "Wicketkeeper",
+                    "player_id": 5333
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/376548831_player.jpg",
+                    "name": "Ian McPeake",
+                    "play_role": "Bowler",
+                    "player_id": 5390
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/641882578_player.jpg",
+                    "name": "Liam Dudding",
+                    "play_role": "Bowler",
+                    "player_id": 5407
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1146926608_player.png",
+                    "name": "James Hartshorn",
+                    "play_role": "Batsman",
+                    "player_id": 7844
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/389915359_player.jpg",
+                    "name": "Gareth Severin",
+                    "play_role": "Wicketkeeper",
+                    "player_id": 7855
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Muhammad Abbas",
+                    "name": "Muhammad Abbas",
+                    "play_role": "Batsman",
+                    "player_id": 7921
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Yahya Zeb",
+                    "name": "Yahya Zeb",
+                    "play_role": "Bowler",
+                    "player_id": 8199
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Jesse Tashkoff",
+                    "name": "Jesse Tashkoff",
+                    "play_role": "Allrounder",
+                    "player_id": 8387
+                },
+                {
+                    "image": "https://cricketchampion.co.in/webroot/img/players/1541298729_player.png",
+                    "name": "Tim Robinson",
+                    "play_role": "Batsman",
+                    "player_id": 9253
+                },
+                {
+                    "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Sam Mycock",
+                    "name": "Sam Mycock",
+                    "play_role": "Batsman",
+                    "player_id": 10941
+                }
+            ]
+        }
+    }
+}
+
+
+
+
