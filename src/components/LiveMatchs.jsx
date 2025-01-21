@@ -60,10 +60,9 @@ const data = {
 }
 
 export default function LiveMatchs() {
-    const { apiData, error, loading } = useCallApi('liveMatches');
+    // const { apiData, error, loading } = useCallApi('liveMatches');
 
-
-    console.log("Api : ", apiData)
+    // console.log("Api : ", apiData)
     // if (loading) {
     //     return <div>Loading...</div>;
     // }
