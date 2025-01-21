@@ -659,3 +659,286 @@ export const newsData = {
         }
     ]
 }
+
+
+export const seriesData = {
+    "msg": "Data found.",
+    "status": true,
+    "data": [
+        {
+            "series_type": "League",
+            "series_date": "15 Dec - 27 Jan 2025",
+            "total_matches": 44,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1892539976_series.jpeg",
+            "start_date": "2024-12-15",
+            "end_date": "2025-01-27",
+            "month_wise": "Dec 2024",
+            "series_id": 415,
+            "series": "Big Bash League 2024-25"
+        },
+        {
+            "series_type": "League",
+            "series_date": "09 Jan - 08 Feb 2025",
+            "total_matches": 34,
+            "image": "https://cricketchampion.co.in/webroot/img/series/189346364_series.jpg",
+            "start_date": "2025-01-09",
+            "end_date": "2025-02-08",
+            "month_wise": "Jan 2025",
+            "series_id": 434,
+            "series": "SA20, 2025"
+        },
+        {
+            "series_type": "League",
+            "series_date": "30 Dec - 07 Feb 2025",
+            "total_matches": 46,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1958563712_series.jpeg",
+            "start_date": "2024-12-30",
+            "end_date": "2025-02-07",
+            "month_wise": "Dec 2024",
+            "series_id": 469,
+            "series": "Bangladesh Premier League, 2024-25"
+        },
+        {
+            "series_type": "League",
+            "series_date": "26 Dec - 02 Feb 2025",
+            "total_matches": 32,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1428963708_series.jpg",
+            "start_date": "2024-12-26",
+            "end_date": "2025-02-02",
+            "month_wise": "Dec 2024",
+            "series_id": 449,
+            "series": "Super Smash 2024-25"
+        },
+        {
+            "series_type": "Local",
+            "series_date": "10 Jan - 26 Jan 2025",
+            "total_matches": 32,
+            "image": "https://cricketchampion.co.in/webroot/img/series/339092159_series.png",
+            "start_date": "2025-01-10",
+            "end_date": "2025-01-26",
+            "month_wise": "Jan 2025",
+            "series_id": 490,
+            "series": "Jamaica T10, 2025"
+        },
+        {
+            "series_type": "Local",
+            "series_date": "26 Dec - 02 Feb 2025",
+            "total_matches": 32,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1500513390_series.jpg",
+            "start_date": "2024-12-26",
+            "end_date": "2025-02-02",
+            "month_wise": "Dec 2024",
+            "series_id": 477,
+            "series": "Women's Super Smash, 2024-25"
+        },
+        {
+            "series_type": "League",
+            "series_date": "11 Jan - 09 Feb 2025",
+            "total_matches": 34,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1843748159_series.jpg",
+            "start_date": "2025-01-11",
+            "end_date": "2025-02-09",
+            "month_wise": "Jan 2025",
+            "series_id": 475,
+            "series": "International League T20, 2025"
+        },
+        {
+            "series_type": "Women",
+            "series_date": "12 Jan - 02 Feb 2025",
+            "total_matches": 7,
+            "image": "https://cricketchampion.co.in/webroot/img/series/2132887307_series.jpg",
+            "start_date": "2025-01-12",
+            "end_date": "2025-02-02",
+            "month_wise": "Jan 2025",
+            "series_id": 488,
+            "series": "Womens Ashes, 2025"
+        },
+        {
+            "series_type": "International",
+            "series_date": "16 Jan - 28 Jan 2025",
+            "total_matches": 2,
+            "image": "https://cricketchampion.co.in/webroot/img/series/593337389_series.png",
+            "start_date": "2025-01-16",
+            "end_date": "2025-01-28",
+            "month_wise": "Jan 2025",
+            "series_id": 481,
+            "series": "West Indies tour of Pakistan, 2025"
+        },
+        {
+            "series_type": "Domestic",
+            "series_date": "17 Jan - 06 Feb 2025",
+            "total_matches": 5,
+            "image": "https://cricketchampion.co.in/webroot/img/series/710961420_series.png",
+            "start_date": "2025-01-17",
+            "end_date": "2025-02-06",
+            "month_wise": "Jan 2025",
+            "series_id": 493,
+            "series": "England Under 19 tour of South Africa, 2025"
+        },
+        {
+            "series_type": "Local",
+            "series_date": "18 Jan - 02 Feb 2025",
+            "total_matches": 41,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1370879746_series.png",
+            "start_date": "2025-01-18",
+            "end_date": "2025-02-02",
+            "month_wise": "Jan 2025",
+            "series_id": 491,
+            "series": "Under 19 Womens T20 World Cup 2025"
+        },
+        {
+            "series_type": "Women",
+            "series_date": "19 Jan - 01 Feb 2025",
+            "total_matches": 6,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1368926650_series.png",
+            "start_date": "2025-01-19",
+            "end_date": "2025-02-01",
+            "month_wise": "Jan 2025",
+            "series_id": 496,
+            "series": "Bangladesh Women tour of West Indies, 2025"
+        },
+        {
+            "series_type": "International",
+            "series_date": "22 Jan - 12 Feb 2025",
+            "total_matches": 8,
+            "image": "https://cricketchampion.co.in/webroot/img/series/878948559_series.jpg",
+            "start_date": "2025-01-22",
+            "end_date": "2025-02-12",
+            "month_wise": "Jan 2025",
+            "series_id": 482,
+            "series": "England tour of India, 2025"
+        },
+        {
+            "series_type": "Local",
+            "series_date": "25 Jan - 01 Feb 2025",
+            "total_matches": 18,
+            "image": "https://ui-avatars.com/api/?background=efefef&color=333333&name=Coastal Big Bash League, 2025",
+            "start_date": "2025-01-25",
+            "end_date": "2025-02-01",
+            "month_wise": "Jan 2025",
+            "series_id": 498,
+            "series": "Coastal Big Bash League, 2025"
+        },
+        {
+            "series_type": "International",
+            "series_date": "29 Jan - 13 Feb 2025",
+            "total_matches": 3,
+            "image": "https://cricketchampion.co.in/webroot/img/series/982491748_series.png",
+            "start_date": "2025-01-29",
+            "end_date": "2025-02-13",
+            "month_wise": "Jan 2025",
+            "series_id": 483,
+            "series": "Australia tour of Sri Lanka, 2025"
+        },
+        {
+            "series_type": "Women",
+            "series_date": "30 Jan - 07 Feb 2025",
+            "total_matches": 9,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1508468981_series.png",
+            "start_date": "2025-01-30",
+            "end_date": "2025-02-07",
+            "month_wise": "Jan 2025",
+            "series_id": 497,
+            "series": "Nepal Womens T20I Tri-Series, 2025"
+        },
+        {
+            "series_type": "International",
+            "series_date": "08 Feb - 14 Feb 2025",
+            "total_matches": 4,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1680891912_series.png",
+            "start_date": "2025-02-08",
+            "end_date": "2025-02-14",
+            "month_wise": "Feb 2025",
+            "series_id": 485,
+            "series": "Pakistan ODI Tri-Series, 2025"
+        },
+        {
+            "series_type": "International",
+            "series_date": "19 Feb - 09 Mar 2025",
+            "total_matches": 15,
+            "image": "https://cricketchampion.co.in/webroot/img/series/997197622_series.png",
+            "start_date": "2025-02-19",
+            "end_date": "2025-03-09",
+            "month_wise": "Feb 2025",
+            "series_id": 486,
+            "series": "Champions Trophy, 2025"
+        },
+        {
+            "series_type": "League",
+            "series_date": "14 Mar - 25 May 2025",
+            "total_matches": 74,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1948469919_series.jpg",
+            "start_date": "2025-03-14",
+            "end_date": "2025-05-25",
+            "month_wise": "Mar 2025",
+            "series_id": 470,
+            "series": "Indian Premier League 2025"
+        },
+        {
+            "series_type": "League",
+            "series_date": "29 May - 13 Sep 2025",
+            "total_matches": 133,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1520376308_series.jpg",
+            "start_date": "2025-05-29",
+            "end_date": "2025-09-13",
+            "month_wise": "May 2025",
+            "series_id": 494,
+            "series": "T20 Blast 2025"
+        },
+        {
+            "series_type": "International",
+            "series_date": "11 Jun - 15 Jun 2025",
+            "total_matches": 1,
+            "image": "https://cricketchampion.co.in/webroot/img/series/2023559042_series.png",
+            "start_date": "2025-06-11",
+            "end_date": "2025-06-15",
+            "month_wise": "Jun 2025",
+            "series_id": 495,
+            "series": "World Test Championship Final 2025"
+        },
+        {
+            "series_type": "Domestic",
+            "series_date": "11 Nov - 01 Apr 2025",
+            "total_matches": 24,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1752960290_series.png",
+            "start_date": "2024-11-11",
+            "end_date": "2025-04-01",
+            "month_wise": "Nov 2024",
+            "series_id": 453,
+            "series": "Plunket Shield 2024-25"
+        },
+        {
+            "series_type": "Domestic",
+            "series_date": "20 Oct - 02 Mar 2025",
+            "total_matches": 32,
+            "image": "https://cricketchampion.co.in/webroot/img/series/2119066520_series.jpg",
+            "start_date": "2024-10-20",
+            "end_date": "2025-03-02",
+            "month_wise": "Oct 2024",
+            "series_id": 445,
+            "series": "The Ford Trophy 2024-25"
+        },
+        {
+            "series_type": "Domestic",
+            "series_date": "24 Sep - 02 Mar 2025",
+            "total_matches": 43,
+            "image": "https://cricketchampion.co.in/webroot/img/series/2130667041_series.png",
+            "start_date": "2024-09-24",
+            "end_date": "2025-03-02",
+            "month_wise": "Sep 2024",
+            "series_id": 444,
+            "series": "Women's National League 2024-25"
+        },
+        {
+            "series_type": "Domestic",
+            "series_date": "22 Sep - 01 Mar 2025",
+            "total_matches": 22,
+            "image": "https://cricketchampion.co.in/webroot/img/series/1447908435_series.png",
+            "start_date": "2024-09-22",
+            "end_date": "2025-03-01",
+            "month_wise": "Sep 2024",
+            "series_id": 418,
+            "series": "Australia Domestic One-Day Cup 2024-25"
+        }
+    ]
+}

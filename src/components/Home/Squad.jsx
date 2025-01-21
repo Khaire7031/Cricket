@@ -1,5 +1,5 @@
 import React from 'react';
-import { data1 } from './data';
+import { data1 } from '../data';
 
 export default function Squad({ matchId }) {
     const squadData = data1.data;

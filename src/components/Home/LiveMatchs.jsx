@@ -1,6 +1,7 @@
 import React from 'react';
-import useCallApi from '../Hooks/useCallApi';
+import useCallApi from '../../Hooks/useCallApi';
 import Match from './Match';
+import Loder from '../Loding';
 
 const data = {
     "max_rate": 1.29,
@@ -64,7 +65,7 @@ export default function LiveMatchs() {
 
     // console.log("Api : ", apiData)
     // if (loading) {
-    //     return <div>Loading...</div>;
+    //     return <Loder />;
     // }
 
     // if (error) {

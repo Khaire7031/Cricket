@@ -8,7 +8,7 @@ export default function Footer() {
                     <div className="mb-6 md:mb-0">
                         <a href="/" className="flex items-center">
                             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                                Pranav Khaire
+                                Cricket
                             </span>
                         </a>
                     </div>

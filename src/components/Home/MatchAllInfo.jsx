@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import Squad from './Squad';
 import Commentary from './Commentary';
 import { useParams } from 'react-router-dom';
-import useCallApi from '../Hooks/useCallApi';
 import BasicInfo from './BasicMatchInfo';
-import { data } from './data';
-
+import useCallApi from '../../Hooks/useCallApi';
+import { data } from '../data';
 
 
 export default function MatchAllInfo() {

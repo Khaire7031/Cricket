@@ -1,5 +1,6 @@
 import React from 'react'
-import { newsData } from './data'
+import { newsData } from '../data';
+
 
 export default function News() {
     const news = newsData.data;

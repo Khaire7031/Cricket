@@ -5,15 +5,15 @@ const initialState = {
 };
 
 const matchesSlice = createSlice({
-    name: 'liveMatches',
+    name: 'Matches',
     initialState,
     reducers: {
-        addToLiveMatches: (state, action) => {
-            state.data = action.payload;
+        addToMatches: (state, action) => {
+            state.data = [...state.data, ...action.payload];
         },
     },
 });
 
-export const { addToLiveMatches } = matchesSlice.actions;
+export const { addToMatches } = matchesSlice.actions;
 
 export default matchesSlice.reducer;

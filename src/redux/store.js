@@ -1,6 +1,7 @@
 
 import { configureStore } from '@reduxjs/toolkit';
-import liveMatchesReducer from './slices/Matches'; // Adjust the path as necessary
+import liveMatchesReducer from './slices/Matches';
+
 
 const store = configureStore({
     reducer: {
