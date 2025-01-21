@@ -20,6 +20,7 @@ const Match = ({ match }) => {
         team_b_scores = "N/A",
         venue = "Unknown Venue",
         match_id
+
     } = match;
 
     const { isPhone } = useContext(PhoneContext);
