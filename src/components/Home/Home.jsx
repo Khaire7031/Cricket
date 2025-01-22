@@ -2,16 +2,37 @@ import React, { useContext } from 'react'
 import LiveMatchs from './LiveMatchs'
 import MatchesList from './MatchesList';
 import SearchResult from './SearchResult';
+import Match from './Match';
+
 
 export default function Home({ searchInput }) {
     console.log("Search Input Home: ", searchInput)
 
     return (
         <div className='lg:px-16'>
-            <SearchResult />
-            {/* <MatchesList name={"Live Matches"} url={"liveMatches"} />
-            <MatchesList name={"UpComing Matches"} url={"upcomingMatches"} /> */}
+            {/* <MatchesList render={render}  name={"Live Matches"} url={"liveMatches"} /> */}
             <LiveMatchs />
+            {
+                searchInput ? <SearchResult render={render} searchInput={searchInput} /> : <LiveMatchs />
+            }
+            {/* <MatchesList render={render} name={"UpComing Matches"} url={"upcomingMatches"} /> */}
         </div>
     )
+}
+
+
+// Render Prop Design Pattern
+function render(matches) {
+    return (
+        <div className="flex flex-row items-center justify-start gap-1 rounded-lg bg-gray-300 p-1 overflow-x-auto hide-scrollbar w-full mx-auto">
+            <h1>{console.log("Render ", matches)}</h1>
+            {matches ? (
+                matches?.data?.map((match, index) => (
+                    <Match key={index} match={match} />
+                ))
+            ) : (
+                <p>No matches found</p>
+            )}
+        </div>
+    );
 }

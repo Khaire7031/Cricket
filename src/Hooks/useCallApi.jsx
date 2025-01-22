@@ -43,7 +43,7 @@ import { useState } from "react";
 // Cricket Live Line Account 4
 const host = "https://cricket-live-line1.p.rapidapi.com";
 const headers = {
-    'x-rapidapi-key': '3f9ea260dbmsh6b3c88572e770b4p19efa2jsnc74eb6aab6db',
+    'x-rapidapi-key': '3f9ea260dbmsh6b3c88572e770b4p19efa2jsnc74eb6aab6db 1',
     'x-rapidapi-host': 'cricket-live-line1.p.rapidapi.com'
 }
 

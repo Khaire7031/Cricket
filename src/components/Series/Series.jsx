@@ -1,23 +1,19 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate hook
+import { useNavigate } from 'react-router-dom';
 import { seriesData } from '../data';
 
 export default function Series({ searchInput }) {
     const data = seriesData.data;
-    const navigate = useNavigate(); // Initialize useNavigate hook
+    const navigate = useNavigate();
 
-    // Filter series data based on search input
-    const filteredData = searchInput
-        ? data.filter((item) =>
-            item.series_type.toLowerCase().includes(searchInput.toLowerCase())
-        )
-        : data;
+    const filteredData = searchInput ? data.filter((item) =>
+        item.series_type.toLowerCase().includes(searchInput.toLowerCase())
+    ) : data;
 
     return (
         <div className="container mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">Cricket Series</h1>
 
-            {/* Conditionally render content based on filtered data */}
             {filteredData.length === 0 ? (
                 <p className="text-center text-gray-500 text-lg">No series found.</p>
             ) : (
@@ -27,9 +23,8 @@ export default function Series({ searchInput }) {
     );
 }
 
-// Series Table Component
+
 const SeriesTable = ({ seriesList, navigate }) => {
-    // Handle click on a series to navigate
     const handleClick = (seriesId) => {
         navigate(`/series/${seriesId}`);
     };

@@ -5,10 +5,10 @@ import Loder from '../Loding';
 import { useDispatch } from 'react-redux';
 import { addToMatches } from '../../redux/slices/Matches';
 
-export default function MatchesList({ name, url }) {
+export default function MatchesList({ render, name, url }) {
     let { apiData, error, loading } = useCallApi(url);
 
-    console.log(`${name} : `, apiData?.data)
+    console.log(`${name} :::: `, apiData?.data)
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -33,11 +33,12 @@ export default function MatchesList({ name, url }) {
                 {name}
             </span>
 
-            <div className="flex flex-row items-center justify-start gap-5 bg-black p-5 overflow-x-auto hide-scrollbar w-full mx-auto">
+            {/* <div className="flex flex-row items-center justify-start gap-5 bg-gray-300 p-5 overflow-x-auto hide-scrollbar w-full mx-auto">
                 {apiData?.data?.map((match, index) => (
                     <Match key={index} match={match} />
                 ))}
-            </div>
+            </div> */}
+            {render(apiData)}
         </>
     );
 }

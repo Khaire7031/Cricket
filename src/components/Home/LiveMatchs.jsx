@@ -77,7 +77,7 @@ export default function LiveMatchs() {
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Live Matches
             </span>
-            <div className="flex flex-row items-center justify-start gap-5 bg-black p-5  overflow-x-auto hide-scrollbar w-full mx-auto">
+            <div className="flex flex-row items-center justify-start gap-1 rounded-lg bg-black p-1  overflow-x-auto hide-scrollbar w-full mx-auto">
 
                 {/* {apiData?.data?.map((match, index) => (
                     <Match key={index} match={match} />

@@ -4,7 +4,7 @@ import { BiSearch } from 'react-icons/bi';
 export default function Search({ setSearchInput }) {
     const handleSearchInput = (e) => {
         e.preventDefault();
-        if (e.target.value.length >= 3) {
+        if (e.target.value.length >= 1) {
             setSearchInput(e.target.value);
         }
     };
@@ -18,7 +18,7 @@ export default function Search({ setSearchInput }) {
                 <input
                     type="text"
                     className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Search Country..."
+                    placeholder="Search ..."
                     onChange={handleSearchInput}
                 />
             </div>

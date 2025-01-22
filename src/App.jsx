@@ -22,7 +22,7 @@ function App() {
           <Navbar setSearchInput={setSearchInput} />
           <Routes>
             <Route path="/" element={<Home searchInput={searchInput} />} />
-            <Route path="/news" element={<News />} />
+            <Route path="/news" element={<News searchInput={searchInput} />} />
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/match/:matchId" element={<MatchAllInfo />} />
             <Route path="/series" element={<Series searchInput={searchInput} />} />
