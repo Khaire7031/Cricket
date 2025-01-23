@@ -1,6 +1,9 @@
 import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import PhoneContext from '../../Hooks/PhoneContext';
+import { CiSaveDown2 } from 'react-icons/ci';
+import { useDispatch } from 'react-redux';
+import { saveMatch } from '../../redux/slices/SavedMatches'
 
 const Match = ({ match }) => {
     if (!match) {
@@ -25,14 +28,20 @@ const Match = ({ match }) => {
 
     const { isPhone } = useContext(PhoneContext);
     const navigate = useNavigate();
+    const dispatch = useDispatch();
+
+    const handleSaveMatch = () => {
+        alert("Match Saved Successfully!")
+        dispatch(saveMatch(match));
+    };
 
     const handleNavigate = () => navigate(`/match/${match_id}`);
 
+    // console.log("MMM : ", match_status)
+
     return (
         <div
-            className="min-w-[270px] min-h-[200px] mx-auto p-3 bg-white border border-gray-300 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between cursor-pointer"
-            onClick={handleNavigate}
-        >
+            className="min-w-[270px] min-h-[200px] mx-auto p-3 bg-white border border-gray-300 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between cursor-pointer" >
             <div className="flex justify-between items-center">
                 <span className="text-xs font-bold text-blue-600 dark:text-blue-400">{series}</span>
                 <div>
@@ -43,7 +52,7 @@ const Match = ({ match }) => {
 
             <hr className="my-1 border-gray-300 dark:border-gray-600" />
 
-            <div className="flex justify-between items-center px-2">
+            <div className="flex justify-between items-center px-2" onClick={handleNavigate}>
                 <div className="text-center">
                     <img className="h-10 w-10 mx-auto rounded-full" src={team_a_img} alt={team_a} />
                     <p className="text-xs font-bold mt-1 dark:text-gray-200">{team_a.split(' ')[0]}</p>
@@ -61,9 +70,16 @@ const Match = ({ match }) => {
 
             <hr className="my-1 border-gray-300 dark:border-gray-600" />
 
-            <div className="text-xs text-gray-700 dark:text-gray-300 text-center">
+            <div className="text-xs flex felx-row justify-between text-gray-700 dark:text-gray-300 text-center">
                 <p>{match_date} | {venue}</p>
+                {match_status === "Upcoming" && (
+                    <CiSaveDown2
+                        className="h-6 w-6 text-black hover:text-blue-600 cursor-pointer"
+                        onClick={handleSaveMatch}
+                    />
+                )}
             </div>
+
         </div>
     );
 };

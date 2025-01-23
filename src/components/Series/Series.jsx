@@ -49,7 +49,7 @@ const SeriesTable = ({ seriesList, navigate }) => {
                             onClick={() => handleClick(series.series_id)} // Make row clickable
                             style={{ cursor: 'pointer' }}
                         >
-                            <td className="px-3 py-2 border-b border-gray-300">
+                            <td className="py-1 border-b border-gray-300">
                                 <img
                                     src={series.image}
                                     alt={series.series}

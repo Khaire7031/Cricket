@@ -5,15 +5,14 @@ import UpComingMatches from './UpComingMatches';
 
 export default function SeriesDetail() {
 
-    const matchId = useParams();
+    const seriesId = useParams();
 
-    console.log("SeriesDetail", matchId);
+    console.log("SeriesDetail seriesId : ", seriesId);
 
     return (
         <div>
-            {/* <UpComingMatches matchId={matchId} /> */}
-            <Squad matchId={matchId} />
-
+            <UpComingMatches seriesId={seriesId} />
+            {/* <Squad matchId={matchId} /> */}
         </div>
     )
 }

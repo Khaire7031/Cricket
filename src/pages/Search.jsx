@@ -4,9 +4,9 @@ import { BiSearch } from 'react-icons/bi';
 export default function Search({ setSearchInput }) {
     const handleSearchInput = (e) => {
         e.preventDefault();
-        if (e.target.value.length >= 1) {
-            setSearchInput(e.target.value);
-        }
+        setSearchInput(e.target.value);
+        // if (e.target.value.length >= 1) {
+        // }
     };
 
     return (

@@ -6,7 +6,7 @@ import { CiTrophy } from 'react-icons/ci';
 import { FaHome } from 'react-icons/fa';
 import { IoNewspaper } from 'react-icons/io5';
 import { PiRanking } from 'react-icons/pi';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 
 
@@ -45,36 +45,36 @@ const Navigation = ({ isPhone }) => {
             <ul className='flex flex-row md:p-0 font-medium border overflow-auto border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
                 <li className={`flex ${!isPhone ? 'flex-col' : 'flex-row'} items-center gap-0 justify-center `}>
                     <FaHome className='text-2xl h-5 w-5' />
-                    <a
-                        href="/"
+                    <Link
+                        to="/"
                         className="block py-1 px-3 text-blue-500 rounded hover:text-blue-500  md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">
                         Home
-                    </a>
+                    </Link>
                 </li>
                 <li className={`flex ${!isPhone ? 'flex-col' : 'flex-row'} items-center gap-0 justify-center `}>
                     <IoNewspaper className='text-2xl h-5 w-5' />
-                    <a
-                        href="/news"
+                    <Link
+                        to="/news"
                         className="block py-1 px-3 text-gray-900 rounded hover:text-blue-500 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">
                         News
-                    </a>
+                    </Link>
                 </li>
                 <li className={`flex ${!isPhone ? 'flex-col' : 'flex-row'} items-center gap-0 justify-center `}>
                     <PiRanking className='text-2xl h-5 w-5' />
-                    <a
-                        href="/ranking"
+                    <Link
+                        to="/ranking"
                         className="block py-1 px-3 text-gray-900 rounded hover:text-blue-500 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">
                         Rank
-                    </a>
+                    </Link>
                 </li>
 
                 <li className={`flex ${!isPhone ? 'flex-col' : 'flex-row'} items-center gap-0 justify-center `}>
                     <CiTrophy className='text-2xl h-5 w-5' />
-                    <a
-                        href="/series"
+                    <Link
+                        to="/series"
                         className="block py-1 px-3 text-gray-900 rounded hover:text-blue-500 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white">
                         Series
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </div>

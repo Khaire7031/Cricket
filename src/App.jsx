@@ -11,6 +11,7 @@ import MatchAllInfo from './components/Home/MatchAllInfo';
 import Series from './components/Series/Series';
 import SeriesDetail from './components/Series/SeriesDetail';
 import Ranking from './components/Rank/Ranking';
+import PlayerDetails from './components/Series/PlayerDetails';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="/series" element={<Series searchInput={searchInput} />} />
             <Route path="/series/:id" element={<SeriesDetail />} />
             <Route path="/ranking" element={<Ranking />} />
+            <Route path="/player/:playerId" element={<PlayerDetails />} />
           </Routes>
           <Footer />
         </BrowserRouter>

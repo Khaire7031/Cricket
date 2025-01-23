@@ -9,7 +9,11 @@ const matchesSlice = createSlice({
     initialState,
     reducers: {
         addToMatches: (state, action) => {
-            state.data = [...state.data, ...action.payload];
+            if (Array.isArray(action.payload)) {
+                state.data = [...state.data, ...action.payload];
+            } else {
+                console.error("Expected an array but got:", action.payload);
+            }
         },
     },
 });

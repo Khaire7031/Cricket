@@ -1,11 +1,12 @@
 
 import { configureStore } from '@reduxjs/toolkit';
 import liveMatchesReducer from './slices/Matches';
-
+import savedMatchReducr from './slices/SavedMatches'
 
 const store = configureStore({
     reducer: {
-        liveMatches: liveMatchesReducer, // This key should match how you access the state in the component
+        liveMatches: liveMatchesReducer, 
+        savedmatch: savedMatchReducr,
     },
 });
 

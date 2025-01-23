@@ -22,23 +22,24 @@ export default function MatchesList({ render, name, url }) {
     }
 
     if (error) {
-        return <div>Error occurred while fetching data</div>;
+        return;
     }
 
-    apiData.data = apiData.data.slice(0, 5).reverse()  // keep only 5
+    // apiData.data = apiData.data.slice(0, 5).reverse()
 
     return (
         <>
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+
+            {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 {name}
-            </span>
+            </span> */}
+            {apiData.data.length > 0 && render(apiData)}
 
             {/* <div className="flex flex-row items-center justify-start gap-5 bg-gray-300 p-5 overflow-x-auto hide-scrollbar w-full mx-auto">
                 {apiData?.data?.map((match, index) => (
                     <Match key={index} match={match} />
                 ))}
-            </div> */}
-            {render(apiData)}
+            </div>  Testing */}
         </>
     );
 }

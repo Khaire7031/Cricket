@@ -35,7 +35,7 @@ export default function MatchAllInfo() {
 
             {/* Content Section */}
             <div className=" p-4 border rounded-md shadow-md bg-white">
-                {selectedTab === 'squad' && <Squad />}
+                {selectedTab === 'squad' && <Squad matchId={matchId} />}
                 {selectedTab === 'commentary' && <Commentary />}
             </div>
         </div>
