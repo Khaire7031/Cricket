@@ -5,16 +5,16 @@ import Loder from '../Loding';
 import useCallApi from '../../Hooks/useCallApi';
 
 export default function Squad({ matchId }) {
-    // const { apiData, error, loading } = useCallApi(`match/${matchId}/squads`);
+    const { apiData, error, loading } = useCallApi(`match/${matchId}/squads`);
 
-    // if (loading) {
-    //     return <Loder />;
-    // }
+    if (loading) {
+        return <Loder />;
+    }
 
-    // if (error) {
-    //     return;
-    // }
-    const squadData = data1.data;
+    if (error) {
+        return;
+    }
+    const squadData = apiData.data;
     // const squadData = apiData.data;
     console.log("Squad", squadData);
 

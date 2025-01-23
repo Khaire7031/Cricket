@@ -26,7 +26,7 @@ const host = "https://cricket-live-line1.p.rapidapi.com";
 // }
 
 
-// // Cricket Live Line Account 2
+// Cricket Live Line Account 2
 // const headers = {
 //     'x-rapidapi-key': '7daec3e5a5mshc901b92b6dc860cp1f78f6jsndab0af666e34',
 //     'x-rapidapi-host': 'cricket-live-line1.p.rapidapi.com'
@@ -45,9 +45,9 @@ const host = "https://cricket-live-line1.p.rapidapi.com";
 //     'x-rapidapi-host': 'cricket-live-line1.p.rapidapi.com'
 // }
 
-// Cricket Live Line Account 5
+// // Cricket Live Line Account 5
 const headers = {
-    'x-rapidapi-key': '3dd9e03010mshf22dca0ab745c75p1e8fb2jsn46657c7d4d1d 1',
+    'x-rapidapi-key': '3dd9e03010mshf22dca0ab745c75p1e8fb2jsn46657c7d4d1d',
     'x-rapidapi-host': 'cricket-live-line1.p.rapidapi.com'
 }
 

@@ -35,8 +35,8 @@ const SearchResult = ({ render, searchInput }) => {
     // console.log("Updated Match Data SearchResult : ", updatedMatchData);
 
     return (
-        <div>
-            <h2>Search Results</h2>
+        <div className=''>
+            {/* <h2>Search Results</h2> */}
             <div>
                 {render(updatedMatchData)}
             </div>
