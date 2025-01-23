@@ -11,7 +11,7 @@ export default function MatchAllInfo() {
     const { matchId } = useParams();
 
     const [selectedTab, setSelectedTab] = useState('squad');
-    const { apiData, error, loading } = useCallApi(`match/${matchId}`);
+    // const { apiData, error, loading } = useCallApi(`match/${matchId}`);
 
     return (
         <div className="container mx-auto p-4 max-w-[1000px]">
@@ -34,7 +34,7 @@ export default function MatchAllInfo() {
             </div>
 
             {/* Content Section */}
-            <div className=" p-4 border rounded-md shadow-md bg-white">
+            <div className=" p-1 mt-2 border rounded-md shadow-md">
                 {selectedTab === 'squad' && <Squad matchId={matchId} />}
                 {selectedTab === 'commentary' && <Commentary />}
             </div>

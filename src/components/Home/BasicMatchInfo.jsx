@@ -66,9 +66,11 @@ const BasicInfo = ({ matchData }) => {
                     <div className="text-base md:text-lg font-medium">
                         <span className="font-semibold">Toss:</span> {toss || "TBD"}
                     </div>
-                    <div className="text-base md:text-lg font-medium">
-                        <span className="font-semibold">Man of the Match:</span> {man_of_match_player || "N/A"}
-                    </div>
+                    {
+                        man_of_match_player && <div className="text-base md:text-lg font-medium">
+                            <span className="font-semibold">Man of the Match:</span> {man_of_match_player}
+                        </div>
+                    }
                 </div>
             </div>
         </div>

@@ -47,7 +47,7 @@ const host = "https://cricket-live-line1.p.rapidapi.com";
 
 // Cricket Live Line Account 5
 const headers = {
-    'x-rapidapi-key': '3dd9e03010mshf22dca0ab745c75p1e8fb2jsn46657c7d4d1d',
+    'x-rapidapi-key': '3dd9e03010mshf22dca0ab745c75p1e8fb2jsn46657c7d4d1d 1',
     'x-rapidapi-host': 'cricket-live-line1.p.rapidapi.com'
 }
 

@@ -11,8 +11,8 @@ export default function Series({ searchInput }) {
     ) : data;
 
     return (
-        <div className="container mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">Cricket Series</h1>
+        <div className="container mx-auto px-4 py-5">
+            <h1 className="text-3xl font-bold text-center mb-3 text-gray-800">Cricket Series</h1>
 
             {filteredData.length === 0 ? (
                 <p className="text-center text-gray-500 text-lg">No series found.</p>
