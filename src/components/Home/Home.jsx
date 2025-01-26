@@ -31,7 +31,7 @@ export default function Home({ searchInput }) {
 // Render Prop Design Pattern
 function render(matches) {
     return (
-        <div className="flex flex-row items-center justify-start gap-1 rounded-lg bg-gray-300 p-1 overflow-x-auto hide-scrollbar w-full mx-auto">
+        <div className="flex flex-row items-center justify-start gap-5 rounded-lg  p-1 py-3 overflow-x-auto hide-scrollbar w-full mx-auto">
             {/* <h1>{console.log("Render ", matches)}</h1> */}
             {matches ? (
                 matches?.data?.map((match, index) => (

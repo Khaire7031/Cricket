@@ -17,15 +17,15 @@ export default function UpComingMatches({ seriesId }) {
     }
 
     return (
-        <>
-            <span className="px-3 p-2 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+        <div className="p-10 mb-10">
+            <span className="px-3 p-10 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 UpComing Series Matches
             </span>
-            <div className="flex flex-row items-center justify-start gap-5 bg-gray-100 p-1  overflow-x-auto hide-scrollbar w-full mx-auto">
+            <div className="flex flex-row items-center justify-start gap-5 p-1  overflow-x-auto hide-scrollbar w-full mx-auto">
                 {apiData?.data?.map((match, index) => (
                     <Match key={index} match={match} />
                 ))}
             </div>
-        </>
+        </div>
     )
 }
